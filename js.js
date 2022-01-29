@@ -3,7 +3,7 @@ const hour = document.querySelector('.hour')
 const minutes = document.querySelector('.minutes')
 const seconds = document.querySelector('.seconds')
 
-const days = ['MO', 'TU', 'WE', 'TH', 'FR', 'SAT', 'SA']
+const days = ['SA', 'TU', 'WE', 'TH', 'FR', 'SAT', 'MO']
 
 setInterval(() => {
 	const date = new Date()
